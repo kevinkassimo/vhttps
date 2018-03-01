@@ -1,6 +1,9 @@
 # VHTTPS Virtual Host on HTTPS
 This minimal package aims to allow hosting multiple HTTPS sites on a single server/IP address. 
 
+## Install
+`npm install --save vhttps`  
+
 ## Usage
 ```js
 const vhttps = require('vhttps');
