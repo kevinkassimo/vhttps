@@ -23,5 +23,9 @@
   "homepage": "https://github.com/kevinkassimo/vhttps#readme",
   "engines": {
     "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "vhost": "^3.0.2"
   }
 }
