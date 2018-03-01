@@ -1,7 +1,7 @@
 {
   "name": "vhttps",
-  "version": "0.0.1",
-  "description": "Hosting multiple HTTPS sites on single server (Virtual Host for HTTPS, TLS/SSL)",
+  "version": "0.0.2",
+  "description": "Hosting multiple HTTPS sites on single server, can integrate with Express and VHost",
   "main": "vhttps.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,9 +23,5 @@
   "homepage": "https://github.com/kevinkassimo/vhttps#readme",
   "engines": {
     "node": ">=8.0.0"
-  },
-  "dependencies": {
-    "express": "^4.16.2",
-    "vhost": "^3.0.2"
   }
 }
