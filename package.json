@@ -1,0 +1,27 @@
+{
+  "name": "vhttps",
+  "version": "0.0.1",
+  "description": "Hosting multiple HTTPS sites on single server (Virtual Host for HTTPS, TLS/SSL)",
+  "main": "vhttps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinkassimo/vhttps.git"
+  },
+  "keywords": [
+    "virtual",
+    "host",
+    "https"
+  ],
+  "author": "Kevin Qian <kevinkassimo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinkassimo/vhttps/issues"
+  },
+  "homepage": "https://github.com/kevinkassimo/vhttps#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
