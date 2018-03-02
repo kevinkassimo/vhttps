@@ -25,7 +25,7 @@ const credentialB = {
     key: fs.readFileSync('./b-key.pem'),
 };
 
-vhttps.createServer(defaultCredential, [credentialA, credentialB], (req, res) => {
+const server = vhttps.createServer(defaultCredential, [credentialA, credentialB], (req, res) => {
     switch (req.headers.host) {
         case 'a.com':
             // custom handlers based on which host you are using
@@ -39,7 +39,7 @@ vhttps.createServer(defaultCredential, [credentialA, credentialB], (req, res) =>
     }
 });
 
-vhttps.listen(443);
+server.listen(443);
 ```
 Use with Express:  
 ```js

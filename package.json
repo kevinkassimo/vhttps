@@ -1,6 +1,6 @@
 {
   "name": "vhttps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hosting multiple HTTPS sites on single server, can integrate with Express and VHost",
   "main": "vhttps.js",
   "scripts": {
