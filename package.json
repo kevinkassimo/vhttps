@@ -1,8 +1,8 @@
 {
   "name": "vhttps",
-  "version": "0.0.3",
-  "description": "Hosting multiple HTTPS sites on single server, can integrate with Express and VHost",
-  "main": "vhttps.js",
+  "version": "0.1.0",
+  "description": "Virtual Secure Servers. Hosting multiple HTTPS sites on single server/port WITHOUT reverse proxy. Can integrate with Express and vhost",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
