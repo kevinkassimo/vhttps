@@ -4,7 +4,8 @@
   "description": "Virtual Secure Servers. Hosting multiple HTTPS sites on single server/port WITHOUT reverse proxy. Can integrate with Express and vhost",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "lint": "eslint --ext js ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/kevinkassimo/vhttps#readme",
   "engines": {
     "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4"
   }
 }
