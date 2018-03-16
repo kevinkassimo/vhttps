@@ -1,6 +1,6 @@
 {
   "name": "vhttps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Virtual Secure Servers. Hosting multiple HTTPS sites on single server/port WITHOUT reverse proxy. Can integrate with Express and vhost",
   "main": "index.js",
   "scripts": {
